@@ -1,12 +1,8 @@
-import React from "react";
-
-const Avatar = ({ children }) => {
+import React, { Children } from 'react';
+const Avatar = (children) => {
   return (
-    <div>
+    <div style = {style}>
       {children}
       </div>
-
-  );
-
+  )
 }
-export default Avatar;
